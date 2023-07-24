@@ -1,0 +1,13 @@
+I've never learned Node.Js, React and Next.js before. 
+I had to learn everything from scratch and do my own experiments to try to understand how they are different
+from the old ways of developing a website using html, css and just javascripts.
+The intended functions like pagination, filtering of the data and search bar don't work, can't figure it out. 
+Tried alot of tutorials and examples from both youtube and google but to no avail and couldn't find my answers.
+Tried using Link href and router to navigate to different pages but for some reason, error 404 always pops up
+after I've clicked on the link. It couldn't find the page that I've placed in my folder.
+
+I had to improvise and change my website design to be really simplistic because of these reasons. Wish I could've
+done better but no matter what I do, I kept getting errors. Tried React on the first week on the first try.
+File wouldn't install properly so I forced installed it, and it corrupted my files. I'm truly sorry that I'm 
+not capable of finishing this even tho I was given a second chance by Mr Paul. Thank you & Mr Paul for the 
+opportunity and chances that were given to me.

@@ -1,0 +1,193 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.HeaderBar {  
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.Mainheader {
+  font-style: italic;
+  padding-left: 16px;
+  font-size: 20px;
+}
+
+.HeaderText {  
+  font-size: 40px;
+  text-align: center;
+  color:bisque
+}
+
+.MainParagraph {
+  padding-left: 16px;
+}
+
+span {
+  cursor:pointer;
+  color:blue;
+  text-decoration:underline;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body,h2,h3,h4,h5 {
+  font-family: "Raleway", sans-serif;
+}
+
+h6 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color:#4c596b;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #9eaf4c;
+  border-color: #dedede #bababa #aaa #bababa;
+  border-style: solid;
+  border-width: 1px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+  -moz-box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+  box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+  margin: 10px auto;
+  overflow: hidden;
+  padding: 8px;
+  width: 100px;
+}
+
+.button1:hover {
+  background-color: #f8f8f8;
+  color: #9eaf4c;
+}
+
+.button2 {
+  background-color: #ff0080;
+  border-color: #dedede #bababa #aaa #bababa;
+  border-style: solid;
+  border-width: 1px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+  -moz-box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+  box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+  margin: 10px auto;
+  overflow: hidden;
+  padding: 8px;
+  width: 109px;
+}
+
+.button2:hover {
+  background-color: #f8f8f8;
+  color: #ff0080;
+}
+
+.json {
+  padding-left: 16px;
+}
+
+.ShowBooksArea {
+  background: rgb(158, 168, 98);
+  background: linear-gradient(90deg, rgba(218, 184, 16) 0%, rgba(158, 168, 75) 35%, rgba(158, 184, 16) 100%);
+}
+
+.BookTitleArea {
+  text-align: center;
+  font-size: 20px;
+}
+
+.FooterDiv {
+  padding-left: 16px;
+  text-transform: uppercase;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  color:bisque
+}
+
+.searchform {
+  background-color: #f6f6f6;
+  border-color: #dedede #bababa #aaa #bababa;
+  border-style: solid;
+  border-width: 1px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+  -moz-box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+  box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+  margin: 10px auto;
+  overflow: hidden;
+  padding: 8px;
+  width: 470px;
+}
+
+.search_input {
+  border-width: 1px;
+  width: 400px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.searchbutton {
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+}
+
+.ResetArea {
+  text-align: center;
+}
+
+.reset {
+  background-color: #0acbfc;
+  border-color: #dedede #bababa #aaa #bababa;
+  border-style: solid;
+  border-width: 1px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+  -moz-box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+  box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+  margin: 10px auto;
+  overflow: hidden;
+  padding: 8px;
+  width: 109px;
+}
+
+.reset:hover {
+  background-color: #f8f8f8;
+  color: #0acbfc;
+}
+
+.BooksTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.BooksTable:hover {
+  background: rgb(26, 218, 141);
+  background: linear-gradient(90deg, rgba(218, 184, 16) 0%, rgba(26, 218, 141) 35%, rgba(158, 184, 16) 100%);
+}
